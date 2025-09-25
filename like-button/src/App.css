@@ -1,0 +1,23 @@
+body {
+  font-family: sans-serif;
+}
+
+:root {
+  --default-color: #888;
+  --active-color: #f00;
+}
+
+.lineBtn {
+  border: 2px solid var(--default-color);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  border-radius: 32px;
+  cursor: pointer;
+  font-weight: bold;
+  height: 30px;
+  padding: 4px 8px;
+  margin-bottom: 5px;
+  color: var(--default-color);
+  background-color: white;
+}
